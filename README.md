@@ -5,6 +5,12 @@
 conda env create -f environment.yaml
 conda activate ldmseamless
 ```
+
+Download the pre-trained weights
+```
+wget -O models/ldm/inpainting_big/last.ckpt https://heibox.uni-heidelberg.de/f/4d9ac7ea40c64582b7c9/?dl=1
+```
+
 # run seamless maker
 ```
 python scripts/img2seamless.py --input "path/to/images/folder/" --steps 50
