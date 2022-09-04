@@ -1,0 +1,2 @@
+mogrify -virtual-pixel tile -filter point -set option:distort:viewport 1024x1024 -distort SRT 0 -path tmp360/tiled2_image tmp360/original_image/example.png
+magick convert tmp360/tiled2_image/example.png -gravity center -crop 512x512+0+0 tmp360/tiled_image/example.png
