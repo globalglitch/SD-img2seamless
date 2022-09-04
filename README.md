@@ -1,6 +1,7 @@
 # make a texture image seamless
 # install 
-(**for some reason u need to reinstall everytime u use a new repo in a new folder, u could just place the new files in an old repo(no dependencies changed)**)
+(**for some reason u need to reinstall everytime u use a new SD repo in a new folder, u could just place the new files in an old repo**)
+**(no dependencies changed)**
 ```
 conda env create -f environment.yaml
 conda activate ldmseamless
