@@ -1,3 +1,16 @@
+# make a texture image seamless
+# install 
+(**for some reason u need to reinstall everytime u use a new repo in a new folder, u could just place the new files in an old repo(no dependencies changed)**)
+```
+conda env create -f environment.yaml
+conda activate ldmseamless
+```
+# run seamless maker
+```
+python scripts/img2seamless.py --input "path/to/images/folder/" --steps 50
+```
+
+
 # Stable Diffusion
 *Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://stability.ai/) and [Runway](https://runwayml.com/) and builds upon our previous work:*
 
